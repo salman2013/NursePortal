@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEED2F59156A2C5100594693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEED2F58156A2C5100594693 /* UIKit.framework */; };
+		CEED2F5B156A2C5100594693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEED2F5A156A2C5100594693 /* Foundation.framework */; };
+		CEED2F5D156A2C5100594693 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEED2F5C156A2C5100594693 /* CoreGraphics.framework */; };
+		CEED2F5F156A2C5100594693 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEED2F5E156A2C5100594693 /* CoreData.framework */; };
+		CEED2F65156A2C5100594693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F63156A2C5100594693 /* InfoPlist.strings */; };
+		CEED2F67156A2C5100594693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2F66156A2C5100594693 /* main.m */; };
+		CEED2F6B156A2C5100594693 /* IYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2F6A156A2C5100594693 /* IYAppDelegate.m */; };
+		CEED2F6E156A2C5100594693 /* NursePortalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEED2F6C156A2C5100594693 /* NursePortalApp.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEED2F54156A2C5100594693 /* NursePortalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NursePortalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEED2F58156A2C5100594693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEED2F5A156A2C5100594693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEED2F5C156A2C5100594693 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEED2F5E156A2C5100594693 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEED2F62156A2C5100594693 /* NursePortalApp-Info.plist */ = {isa = PBXFileReference; path = "NursePortalApp-Info.plist"; sourceTree = "<group>"; };
+		CEED2F64156A2C5100594693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEED2F66156A2C5100594693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEED2F68156A2C5100594693 /* NursePortalApp-Prefix.pch */ = {isa = PBXFileReference; path = "NursePortalApp-Prefix.pch"; sourceTree = "<group>"; };
+		CEED2F69156A2C5100594693 /* IYAppDelegate.h */ = {isa = PBXFileReference; path = IYAppDelegate.h; sourceTree = "<group>"; };
+		CEED2F6A156A2C5100594693 /* IYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IYAppDelegate.m; sourceTree = "<group>"; };
+		CEED2F6D156A2C5100594693 /* NursePortalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NursePortalApp.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEED2F51156A2C5100594693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEED2F59156A2C5100594693 /* UIKit.framework in Frameworks */,
+				CEED2F5B156A2C5100594693 /* Foundation.framework in Frameworks */,
+				CEED2F5D156A2C5100594693 /* CoreGraphics.framework in Frameworks */,
+				CEED2F5F156A2C5100594693 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEED2F49156A2C5100594693 = {
+			isa = PBXGroup;
+			children = (
+				CEED2F60156A2C5100594693 /* NursePortalApp */,
+				CEED2F57156A2C5100594693 /* Frameworks */,
+				CEED2F55156A2C5100594693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEED2F55156A2C5100594693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F54156A2C5100594693 /* NursePortalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEED2F57156A2C5100594693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F58156A2C5100594693 /* UIKit.framework */,
+				CEED2F5A156A2C5100594693 /* Foundation.framework */,
+				CEED2F5C156A2C5100594693 /* CoreGraphics.framework */,
+				CEED2F5E156A2C5100594693 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEED2F60156A2C5100594693 /* NursePortalApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F69156A2C5100594693 /* IYAppDelegate.h */,
+				CEED2F6A156A2C5100594693 /* IYAppDelegate.m */,
+				CEED2F6C156A2C5100594693 /* NursePortalApp.xcdatamodeld */,
+				CEED2F61156A2C5100594693 /* Supporting Files */,
+			);
+			path = NursePortalApp;
+			sourceTree = "<group>";
+		};
+		CEED2F61156A2C5100594693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F62156A2C5100594693 /* NursePortalApp-Info.plist */,
+				CEED2F63156A2C5100594693 /* InfoPlist.strings */,
+				CEED2F66156A2C5100594693 /* main.m */,
+				CEED2F68156A2C5100594693 /* NursePortalApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEED2F53156A2C5100594693 /* NursePortalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEED2F71156A2C5100594693 /* Build configuration list for PBXNativeTarget "NursePortalApp" */;
+			buildPhases = (
+				CEED2F50156A2C5100594693 /* Sources */,
+				CEED2F51156A2C5100594693 /* Frameworks */,
+				CEED2F52156A2C5100594693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NursePortalApp;
+			productName = NursePortalApp;
+			productReference = CEED2F54156A2C5100594693 /* NursePortalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEED2F4B156A2C5100594693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IY;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEED2F4E156A2C5100594693 /* Build configuration list for PBXProject "NursePortalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEED2F49156A2C5100594693;
+			productRefGroup = CEED2F55156A2C5100594693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEED2F53156A2C5100594693 /* NursePortalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEED2F52156A2C5100594693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEED2F65156A2C5100594693 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEED2F50156A2C5100594693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEED2F67156A2C5100594693 /* main.m in Sources */,
+				CEED2F6B156A2C5100594693 /* IYAppDelegate.m in Sources */,
+				CEED2F6E156A2C5100594693 /* NursePortalApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEED2F63156A2C5100594693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEED2F64156A2C5100594693 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEED2F6F156A2C5100594693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEED2F70156A2C5100594693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEED2F72156A2C5100594693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NursePortalApp/NursePortalApp-Prefix.pch";
+				INFOPLIST_FILE = "NursePortalApp/NursePortalApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEED2F73156A2C5100594693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NursePortalApp/NursePortalApp-Prefix.pch";
+				INFOPLIST_FILE = "NursePortalApp/NursePortalApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEED2F4E156A2C5100594693 /* Build configuration list for PBXProject "NursePortalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEED2F6F156A2C5100594693 /* Debug */,
+				CEED2F70156A2C5100594693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEED2F71156A2C5100594693 /* Build configuration list for PBXNativeTarget "NursePortalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEED2F72156A2C5100594693 /* Debug */,
+				CEED2F73156A2C5100594693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEED2F6C156A2C5100594693 /* NursePortalApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEED2F6D156A2C5100594693 /* NursePortalApp.xcdatamodel */,
+			);
+			currentVersion = CEED2F6D156A2C5100594693 /* NursePortalApp.xcdatamodel */;
+			path = NursePortalApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEED2F4B156A2C5100594693 /* Project object */;
+}
