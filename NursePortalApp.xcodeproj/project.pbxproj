@@ -15,6 +15,36 @@
 		CEED2F67156A2C5100594693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2F66156A2C5100594693 /* main.m */; };
 		CEED2F6B156A2C5100594693 /* IYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2F6A156A2C5100594693 /* IYAppDelegate.m */; };
 		CEED2F6E156A2C5100594693 /* NursePortalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEED2F6C156A2C5100594693 /* NursePortalApp.xcdatamodeld */; };
+		CEED2F8A156A2D2700594693 /* datecell.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F76156A2D2700594693 /* datecell.png */; };
+		CEED2F8B156A2D2700594693 /* datecellselected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F77156A2D2700594693 /* datecellselected.png */; };
+		CEED2F8C156A2D2700594693 /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F78156A2D2700594693 /* leftarrow.png */; };
+		CEED2F8D156A2D2700594693 /* Month Calendar Date Tile Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F79156A2D2700594693 /* Month Calendar Date Tile Gray.png */; };
+		CEED2F8E156A2D2700594693 /* Month Calendar Date Tile Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F7A156A2D2700594693 /* Month Calendar Date Tile Selected.png */; };
+		CEED2F8F156A2D2700594693 /* Month Calendar Date Tile Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F7B156A2D2700594693 /* Month Calendar Date Tile Selected@2x.png */; };
+		CEED2F90156A2D2700594693 /* Month Calendar Date Tile.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F7C156A2D2700594693 /* Month Calendar Date Tile.png */; };
+		CEED2F91156A2D2700594693 /* Month Calendar Left Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F7D156A2D2700594693 /* Month Calendar Left Arrow.png */; };
+		CEED2F92156A2D2700594693 /* Month Calendar Left Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F7E156A2D2700594693 /* Month Calendar Left Arrow@2x.png */; };
+		CEED2F93156A2D2700594693 /* Month Calendar Right Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F7F156A2D2700594693 /* Month Calendar Right Arrow.png */; };
+		CEED2F94156A2D2700594693 /* Month Calendar Right Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F80156A2D2700594693 /* Month Calendar Right Arrow@2x.png */; };
+		CEED2F95156A2D2700594693 /* Month Calendar Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F81156A2D2700594693 /* Month Calendar Shadow.png */; };
+		CEED2F96156A2D2700594693 /* Month Calendar Today Selected Tile.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F82156A2D2700594693 /* Month Calendar Today Selected Tile.png */; };
+		CEED2F97156A2D2700594693 /* Month Calendar Today Tile.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F83156A2D2700594693 /* Month Calendar Today Tile.png */; };
+		CEED2F98156A2D2700594693 /* Month Grid Top Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F84156A2D2700594693 /* Month Grid Top Bar.png */; };
+		CEED2F99156A2D2700594693 /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F85156A2D2700594693 /* rightarrow.png */; };
+		CEED2F9A156A2D2700594693 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F86156A2D2700594693 /* shadow.png */; };
+		CEED2F9B156A2D2700594693 /* today.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F87156A2D2700594693 /* today.png */; };
+		CEED2F9C156A2D2700594693 /* todayselected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F88156A2D2700594693 /* todayselected.png */; };
+		CEED2F9D156A2D2700594693 /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEED2F89156A2D2700594693 /* topbar.png */; };
+		CEED2FA1156A33A300594693 /* NSDate+SSIDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FA0156A33A300594693 /* NSDate+SSIDate.m */; };
+		CEED2FA4156A356800594693 /* NSString+SSIStringDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FA3156A356800594693 /* NSString+SSIStringDate.m */; };
+		CEED2FA6156A3F3800594693 /* NurseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEED2FA5156A3F3800594693 /* NurseStoryboard.storyboard */; };
+		CEED2FA9156A3F8D00594693 /* NurseLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FA8156A3F8D00594693 /* NurseLoginVC.m */; };
+		CEED2FB1156A499800594693 /* SSICalendarControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FB0156A499800594693 /* SSICalendarControl.m */; };
+		CEED2FB4156A49B300594693 /* SSICalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FB3156A49B300594693 /* SSICalendarView.m */; };
+		CEED2FBB156A633100594693 /* SSICalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FBA156A633100594693 /* SSICalendarVC.m */; };
+		CEED2FBE156A66C800594693 /* SSICalendarTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FBD156A66C800594693 /* SSICalendarTableView.m */; };
+		CEED2FC1156A6A2700594693 /* SSINurseCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FC0156A6A2600594693 /* SSINurseCalendar.m */; };
+		CEED2FC5156A7AB200594693 /* AppGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED2FC4156A7AB200594693 /* AppGlobal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +53,52 @@
 		CEED2F5A156A2C5100594693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEED2F5C156A2C5100594693 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CEED2F5E156A2C5100594693 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CEED2F62156A2C5100594693 /* NursePortalApp-Info.plist */ = {isa = PBXFileReference; path = "NursePortalApp-Info.plist"; sourceTree = "<group>"; };
+		CEED2F62156A2C5100594693 /* NursePortalApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NursePortalApp-Info.plist"; sourceTree = "<group>"; };
 		CEED2F64156A2C5100594693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEED2F66156A2C5100594693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEED2F68156A2C5100594693 /* NursePortalApp-Prefix.pch */ = {isa = PBXFileReference; path = "NursePortalApp-Prefix.pch"; sourceTree = "<group>"; };
-		CEED2F69156A2C5100594693 /* IYAppDelegate.h */ = {isa = PBXFileReference; path = IYAppDelegate.h; sourceTree = "<group>"; };
+		CEED2F68156A2C5100594693 /* NursePortalApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NursePortalApp-Prefix.pch"; sourceTree = "<group>"; };
+		CEED2F69156A2C5100594693 /* IYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IYAppDelegate.h; sourceTree = "<group>"; };
 		CEED2F6A156A2C5100594693 /* IYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IYAppDelegate.m; sourceTree = "<group>"; };
 		CEED2F6D156A2C5100594693 /* NursePortalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NursePortalApp.xcdatamodel; sourceTree = "<group>"; };
+		CEED2F76156A2D2700594693 /* datecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datecell.png; sourceTree = "<group>"; };
+		CEED2F77156A2D2700594693 /* datecellselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datecellselected.png; sourceTree = "<group>"; };
+		CEED2F78156A2D2700594693 /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
+		CEED2F79156A2D2700594693 /* Month Calendar Date Tile Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Date Tile Gray.png"; sourceTree = "<group>"; };
+		CEED2F7A156A2D2700594693 /* Month Calendar Date Tile Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Date Tile Selected.png"; sourceTree = "<group>"; };
+		CEED2F7B156A2D2700594693 /* Month Calendar Date Tile Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Date Tile Selected@2x.png"; sourceTree = "<group>"; };
+		CEED2F7C156A2D2700594693 /* Month Calendar Date Tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Date Tile.png"; sourceTree = "<group>"; };
+		CEED2F7D156A2D2700594693 /* Month Calendar Left Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Left Arrow.png"; sourceTree = "<group>"; };
+		CEED2F7E156A2D2700594693 /* Month Calendar Left Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Left Arrow@2x.png"; sourceTree = "<group>"; };
+		CEED2F7F156A2D2700594693 /* Month Calendar Right Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Right Arrow.png"; sourceTree = "<group>"; };
+		CEED2F80156A2D2700594693 /* Month Calendar Right Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Right Arrow@2x.png"; sourceTree = "<group>"; };
+		CEED2F81156A2D2700594693 /* Month Calendar Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Shadow.png"; sourceTree = "<group>"; };
+		CEED2F82156A2D2700594693 /* Month Calendar Today Selected Tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Today Selected Tile.png"; sourceTree = "<group>"; };
+		CEED2F83156A2D2700594693 /* Month Calendar Today Tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Calendar Today Tile.png"; sourceTree = "<group>"; };
+		CEED2F84156A2D2700594693 /* Month Grid Top Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Month Grid Top Bar.png"; sourceTree = "<group>"; };
+		CEED2F85156A2D2700594693 /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
+		CEED2F86156A2D2700594693 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		CEED2F87156A2D2700594693 /* today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today.png; sourceTree = "<group>"; };
+		CEED2F88156A2D2700594693 /* todayselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todayselected.png; sourceTree = "<group>"; };
+		CEED2F89156A2D2700594693 /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		CEED2F9F156A33A300594693 /* NSDate+SSIDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SSIDate.h"; sourceTree = "<group>"; };
+		CEED2FA0156A33A300594693 /* NSDate+SSIDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SSIDate.m"; sourceTree = "<group>"; };
+		CEED2FA2156A356800594693 /* NSString+SSIStringDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSIStringDate.h"; sourceTree = "<group>"; };
+		CEED2FA3156A356800594693 /* NSString+SSIStringDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSIStringDate.m"; sourceTree = "<group>"; };
+		CEED2FA5156A3F3800594693 /* NurseStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NurseStoryboard.storyboard; sourceTree = "<group>"; };
+		CEED2FA7156A3F8D00594693 /* NurseLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NurseLoginVC.h; sourceTree = "<group>"; };
+		CEED2FA8156A3F8D00594693 /* NurseLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NurseLoginVC.m; sourceTree = "<group>"; };
+		CEED2FAF156A499800594693 /* SSICalendarControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSICalendarControl.h; sourceTree = "<group>"; };
+		CEED2FB0156A499800594693 /* SSICalendarControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSICalendarControl.m; sourceTree = "<group>"; };
+		CEED2FB2156A49B300594693 /* SSICalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSICalendarView.h; sourceTree = "<group>"; };
+		CEED2FB3156A49B300594693 /* SSICalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSICalendarView.m; sourceTree = "<group>"; };
+		CEED2FB9156A633000594693 /* SSICalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSICalendarVC.h; sourceTree = "<group>"; };
+		CEED2FBA156A633100594693 /* SSICalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSICalendarVC.m; sourceTree = "<group>"; };
+		CEED2FBC156A66C800594693 /* SSICalendarTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSICalendarTableView.h; sourceTree = "<group>"; };
+		CEED2FBD156A66C800594693 /* SSICalendarTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSICalendarTableView.m; sourceTree = "<group>"; };
+		CEED2FBF156A6A2600594693 /* SSINurseCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSINurseCalendar.h; sourceTree = "<group>"; };
+		CEED2FC0156A6A2600594693 /* SSINurseCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSINurseCalendar.m; sourceTree = "<group>"; };
+		CEED2FC3156A7AB200594693 /* AppGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppGlobal.h; sourceTree = "<group>"; };
+		CEED2FC4156A7AB200594693 /* AppGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppGlobal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +119,7 @@
 		CEED2F49156A2C5100594693 = {
 			isa = PBXGroup;
 			children = (
+				CEED2F74156A2C6300594693 /* Resources */,
 				CEED2F60156A2C5100594693 /* NursePortalApp */,
 				CEED2F57156A2C5100594693 /* Frameworks */,
 				CEED2F55156A2C5100594693 /* Products */,
@@ -78,10 +148,22 @@
 		CEED2F60156A2C5100594693 /* NursePortalApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEED2FC2156A7A7900594693 /* Model */,
+				CEED2FAE156A496200594693 /* Calendar */,
+				CEED2F9E156A337300594693 /* SupportingClasses */,
 				CEED2F69156A2C5100594693 /* IYAppDelegate.h */,
 				CEED2F6A156A2C5100594693 /* IYAppDelegate.m */,
 				CEED2F6C156A2C5100594693 /* NursePortalApp.xcdatamodeld */,
 				CEED2F61156A2C5100594693 /* Supporting Files */,
+				CEED2FA5156A3F3800594693 /* NurseStoryboard.storyboard */,
+				CEED2FA7156A3F8D00594693 /* NurseLoginVC.h */,
+				CEED2FA8156A3F8D00594693 /* NurseLoginVC.m */,
+				CEED2FB9156A633000594693 /* SSICalendarVC.h */,
+				CEED2FBA156A633100594693 /* SSICalendarVC.m */,
+				CEED2FBC156A66C800594693 /* SSICalendarTableView.h */,
+				CEED2FBD156A66C800594693 /* SSICalendarTableView.m */,
+				CEED2FBF156A6A2600594693 /* SSINurseCalendar.h */,
+				CEED2FC0156A6A2600594693 /* SSINurseCalendar.m */,
 			);
 			path = NursePortalApp;
 			sourceTree = "<group>";
@@ -95,6 +177,72 @@
 				CEED2F68156A2C5100594693 /* NursePortalApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEED2F74156A2C6300594693 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F75156A2CED00594693 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEED2F75156A2CED00594693 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F76156A2D2700594693 /* datecell.png */,
+				CEED2F77156A2D2700594693 /* datecellselected.png */,
+				CEED2F78156A2D2700594693 /* leftarrow.png */,
+				CEED2F79156A2D2700594693 /* Month Calendar Date Tile Gray.png */,
+				CEED2F7A156A2D2700594693 /* Month Calendar Date Tile Selected.png */,
+				CEED2F7B156A2D2700594693 /* Month Calendar Date Tile Selected@2x.png */,
+				CEED2F7C156A2D2700594693 /* Month Calendar Date Tile.png */,
+				CEED2F7D156A2D2700594693 /* Month Calendar Left Arrow.png */,
+				CEED2F7E156A2D2700594693 /* Month Calendar Left Arrow@2x.png */,
+				CEED2F7F156A2D2700594693 /* Month Calendar Right Arrow.png */,
+				CEED2F80156A2D2700594693 /* Month Calendar Right Arrow@2x.png */,
+				CEED2F81156A2D2700594693 /* Month Calendar Shadow.png */,
+				CEED2F82156A2D2700594693 /* Month Calendar Today Selected Tile.png */,
+				CEED2F83156A2D2700594693 /* Month Calendar Today Tile.png */,
+				CEED2F84156A2D2700594693 /* Month Grid Top Bar.png */,
+				CEED2F85156A2D2700594693 /* rightarrow.png */,
+				CEED2F86156A2D2700594693 /* shadow.png */,
+				CEED2F87156A2D2700594693 /* today.png */,
+				CEED2F88156A2D2700594693 /* todayselected.png */,
+				CEED2F89156A2D2700594693 /* topbar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEED2F9E156A337300594693 /* SupportingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2F9F156A33A300594693 /* NSDate+SSIDate.h */,
+				CEED2FA0156A33A300594693 /* NSDate+SSIDate.m */,
+				CEED2FA2156A356800594693 /* NSString+SSIStringDate.h */,
+				CEED2FA3156A356800594693 /* NSString+SSIStringDate.m */,
+			);
+			name = SupportingClasses;
+			sourceTree = "<group>";
+		};
+		CEED2FAE156A496200594693 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2FAF156A499800594693 /* SSICalendarControl.h */,
+				CEED2FB0156A499800594693 /* SSICalendarControl.m */,
+				CEED2FB2156A49B300594693 /* SSICalendarView.h */,
+				CEED2FB3156A49B300594693 /* SSICalendarView.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		CEED2FC2156A7A7900594693 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2FC3156A7AB200594693 /* AppGlobal.h */,
+				CEED2FC4156A7AB200594693 /* AppGlobal.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +297,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEED2F65156A2C5100594693 /* InfoPlist.strings in Resources */,
+				CEED2F8A156A2D2700594693 /* datecell.png in Resources */,
+				CEED2F8B156A2D2700594693 /* datecellselected.png in Resources */,
+				CEED2F8C156A2D2700594693 /* leftarrow.png in Resources */,
+				CEED2F8D156A2D2700594693 /* Month Calendar Date Tile Gray.png in Resources */,
+				CEED2F8E156A2D2700594693 /* Month Calendar Date Tile Selected.png in Resources */,
+				CEED2F8F156A2D2700594693 /* Month Calendar Date Tile Selected@2x.png in Resources */,
+				CEED2F90156A2D2700594693 /* Month Calendar Date Tile.png in Resources */,
+				CEED2F91156A2D2700594693 /* Month Calendar Left Arrow.png in Resources */,
+				CEED2F92156A2D2700594693 /* Month Calendar Left Arrow@2x.png in Resources */,
+				CEED2F93156A2D2700594693 /* Month Calendar Right Arrow.png in Resources */,
+				CEED2F94156A2D2700594693 /* Month Calendar Right Arrow@2x.png in Resources */,
+				CEED2F95156A2D2700594693 /* Month Calendar Shadow.png in Resources */,
+				CEED2F96156A2D2700594693 /* Month Calendar Today Selected Tile.png in Resources */,
+				CEED2F97156A2D2700594693 /* Month Calendar Today Tile.png in Resources */,
+				CEED2F98156A2D2700594693 /* Month Grid Top Bar.png in Resources */,
+				CEED2F99156A2D2700594693 /* rightarrow.png in Resources */,
+				CEED2F9A156A2D2700594693 /* shadow.png in Resources */,
+				CEED2F9B156A2D2700594693 /* today.png in Resources */,
+				CEED2F9C156A2D2700594693 /* todayselected.png in Resources */,
+				CEED2F9D156A2D2700594693 /* topbar.png in Resources */,
+				CEED2FA6156A3F3800594693 /* NurseStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +331,15 @@
 				CEED2F67156A2C5100594693 /* main.m in Sources */,
 				CEED2F6B156A2C5100594693 /* IYAppDelegate.m in Sources */,
 				CEED2F6E156A2C5100594693 /* NursePortalApp.xcdatamodeld in Sources */,
+				CEED2FA1156A33A300594693 /* NSDate+SSIDate.m in Sources */,
+				CEED2FA4156A356800594693 /* NSString+SSIStringDate.m in Sources */,
+				CEED2FA9156A3F8D00594693 /* NurseLoginVC.m in Sources */,
+				CEED2FB1156A499800594693 /* SSICalendarControl.m in Sources */,
+				CEED2FB4156A49B300594693 /* SSICalendarView.m in Sources */,
+				CEED2FBB156A633100594693 /* SSICalendarVC.m in Sources */,
+				CEED2FBE156A66C800594693 /* SSICalendarTableView.m in Sources */,
+				CEED2FC1156A6A2700594693 /* SSINurseCalendar.m in Sources */,
+				CEED2FC5156A7AB200594693 /* AppGlobal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NursePortalApp/NursePortalApp-Prefix.pch";
 				INFOPLIST_FILE = "NursePortalApp/NursePortalApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -241,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NursePortalApp/NursePortalApp-Prefix.pch";
 				INFOPLIST_FILE = "NursePortalApp/NursePortalApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

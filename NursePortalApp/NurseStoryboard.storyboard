@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="c4w-rK-7hY">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Nurse LoginVC-->
+        <scene sceneID="Xmy-xQ-Uu0">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXT-OM-jyf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="c4w-rK-7hY" customClass="NurseLoginVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c00-RS-vXS">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="s5i-pE-woJ">
+                                <rect key="frame" x="139" y="66" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xFr-Ej-eYB">
+                                <rect key="frame" x="124" y="211" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mMp-n7-HdA" kind="modal" identifier="LoginSegue" id="IUu-Nf-TJS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="69" y="42"/>
+        </scene>
+        <!--Nurse Calendar-->
+        <scene sceneID="yp5-em-WaI">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cf6-E4-S4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="BTi-1Y-Q9P" customClass="SSINurseCalendar" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Si6-qN-YMS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5au-IB-3bX"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="950" y="52"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OT0-N0-9YU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iyy-Lf-Zca" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="mMp-n7-HdA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="AHf-ia-zhm">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BTi-1Y-Q9P" kind="relationship" relationship="rootViewController" id="bql-fd-Der"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="565" y="42"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NurseLoginVC" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NurseLoginVC.h"/>
+        </class>
+        <class className="SSICalendarTableView" superclassName="SSICalendarVC">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSICalendarTableView.h"/>
+        </class>
+        <class className="SSICalendarVC" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSICalendarVC.h"/>
+        </class>
+        <class className="SSINurseCalendar" superclassName="SSICalendarTableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSINurseCalendar.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
